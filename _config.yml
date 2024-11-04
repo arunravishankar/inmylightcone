@@ -1,19 +1,22 @@
-title: My Blog
-email: your-email@example.com
-description: >-
-  Write an awesome description for your blog here.
-baseurl: ""
-url: ""
+title: In my Lightcone
+author: Arun Ravishankar
+email: arunravishankar@gmail.com
+description: Your awesome blog description
+url: http://localhost:4000
 
 # Build settings
 markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Exclude directories and files
+# Exclude from processing
 exclude:
+  - Dockerfile
+  - docker-compose.yml
   - Gemfile
   - Gemfile.lock
   - node_modules

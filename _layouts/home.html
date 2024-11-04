@@ -2,20 +2,23 @@
 layout: default
 ---
 <div class="home">
-    <h1>{{ site.title }}</h1>
     {{ content }}
-    <h2>Latest Posts</h2>
+
     <ul class="post-list">
-      {% for post in site.posts %}
-      <li>
-        <h3>
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        </h3>
-        <time datetime="{{ post.date | date_to_xmlschema }}">
-          {{ post.date | date: "%B %d, %Y" }}
-        </time>
-        {{ post.excerpt }}
-      </li>
-      {% endfor %}
+        {% for post in site.posts %}
+        <li>
+            <h2>
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </h2>
+            <div class="post-meta">
+                {{ post.date | date: "%B %d, %Y" }}
+            </div>
+            {% if post.description %}
+            <div class="post-description">
+                {{ post.description }}
+            </div>
+            {% endif %}
+        </li>
+        {% endfor %}
     </ul>
-  </div>
+</div>
