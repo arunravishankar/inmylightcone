@@ -7,6 +7,9 @@ export default defineConfig({
 	branch,
 	clientId: process.env.TINACLIENTID, // Get this from tina.io
 	token: process.env.TINATOKEN, // Get this from tina.io
+	apiURL: process.env.NODE_ENV === 'development' 
+		? 'http://localhost:4001/graphql'
+		: `https://content.tinajs.io/content/${process.env.TINACLIENTID}/github/${branch}`,
 
 	build: {
 		outputFolder: "admin",
@@ -65,28 +68,28 @@ export default defineConfig({
 						list: true,
 						options: [
 							{
-								value: "technical",
-								label: "Technical",
+								value: "data",
+								label: "Data",
 							},
 							{
-								value: "advice",
-								label: "Advice",
+								value: "rl",
+								label: "Reinforcement Learning",
 							},
 							{
-								value: "events",
-								label: "Events",
+								value: "economics",
+								label: "Economics",
 							},
 							{
-								value: "learning",
-								label: "Learning",
+								value: "complexity",
+								label: "Complexity",
 							},
 							{
-								value: "meta",
-								label: "Meta",
+								value: "experimentation",
+								label: "Experimentation",
 							},
 							{
-								value: "work",
-								label: "Work",
+								value: "games",
+								label: "Games",
 							},
 							{
 								value: "personal",

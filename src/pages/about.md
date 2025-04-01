@@ -1,9 +1,9 @@
-Welcome to this blog template by [cassidoo](https://cassidoo.co)!
+In physics, a lightcone represents the path that light (or any causal influence) can take through spacetime from a specific event. It defines the boundary between what can and cannot affect that event—or be affected by it. Everything inside your past lightcone has potentially shaped your present, while everything in your future lightcone can potentially be influenced by your actions now.
 
-It's using Astro and TinaCMS. You can [clone it on GitHub](https://github.com/cassidoo/blahg) to use it for yourself, and see how it works! I would _love_ if you told me when you do use it, I love seeing variations on it!
+I named this blog "In my Lightcone" because it represents the range of ideas and topics that have shaped my thinking and those I hope to explore and share. It's my small corner of the internet where I can connect dots between different fields through mathematics and computation.
 
-The tags at the bottom of the page are dynamically generated. The more tags you use, the more tags are added to the list! Posts are simple markdown files.
+I'm drawn to finding mathematical patterns in complex systems. Math gives us tools to make sense of phenomena in nature, whether they're in physics, economics, biology, or society. This blog is where I'll share what I'm learning.
 
-You should also check out [my newsletter](https://cassidoo.co/newsletter), or my word game [Jumblie](https://jumblie.com/?utm_campaign=blahgtmp&utm_source=github), or my [GitHub profile](https://github.com/cassidoo). Or don't. Follow your dreams.
+I hope to use this as my journal of ideas which allows me to be more rigorous in exploring topics of interest, as well as putting it out there so that it sparks interest in like-minded people allowing for an exchange of ideas through conversation.
 
-Enjoy!
+You can reach out to me via email at arunravishankar@gmail.com or on [Linkedin](https://www.linkedin.com/in/arunravishankar/).
