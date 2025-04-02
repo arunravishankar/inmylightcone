@@ -32,7 +32,7 @@ Most data scientists are familiar with frequentist approaches, but there are com
 
 I've developed a bit of an obsession with game theory and optimal play strategies. There's fascinating math behind why people do what they do when they're competing or cooperating.
 
-For instance, I'm very interested in training a bot to play the game of \[Quoridor]\([https://en.wikipedia.org/wiki/Quoridor](https://en.wikipedia.org/wiki/Quoridor)). Like chess, Quoridor is a complete information, deterministic game, so methods like Monte Carlo Tree Search and approaches similar to \[AlphaZero]\([https://en.wikipedia.org/wiki/AlphaZero](https://en.wikipedia.org/wiki/AlphaZero)) should work well.
+For instance, I'm very interested in training a bot to play the game of [Quoridor](https://en.wikipedia.org/wiki/Quoridor). Like chess, Quoridor is a complete information, deterministic game, so methods like Monte Carlo Tree Search and approaches similar to [AlphaZero](https://en.wikipedia.org/wiki/AlphaZero) should work well.
 
 But what about incomplete information and stochastic games like Poker? How do you formulate optimal play when you don't have perfect information? I want to explore the whole spectrum of game types and think about approaches to learning optimal play in each context.
 

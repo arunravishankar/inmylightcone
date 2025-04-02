@@ -27,7 +27,7 @@ html,
 body {
 	margin: auto;
 	padding: 20px;
-	max-width: 70ch;
+	max-width: 90ch;
 	background-color: var(--white);
 	word-wrap: break-word;
 	overflow-wrap: break-word;
@@ -37,7 +37,7 @@ html,
 body,
 button,
 code {
-	font-family: "iA Writer Mono", monospace;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h1,
 strong,
@@ -244,7 +244,7 @@ article :not(.article-title) {
 }
 
 .blog-post {
-	font-size: clamp(1rem, 0.96rem + 0.22vw, 1.125rem);
+	font-size: 1rem;
 }
 
 .blog-post > * + * {
